@@ -1,0 +1,19 @@
+startport: 8080
+monitors: 3
+pages:
+  index:
+    time: 20
+  hej:
+    time: 500
+  bruh:
+    time: 15
+setmonitors:
+  "8080":
+    showpages:
+      - bruh
+      - hej
+  "8081":
+    showpages:
+      - bruh
+  "8082":
+    showpages: []
